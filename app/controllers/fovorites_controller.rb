@@ -15,3 +15,5 @@ class FovoritesController < ApplicationController
   end
   
 end
+
+
