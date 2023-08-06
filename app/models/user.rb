@@ -37,4 +37,6 @@ class User < ApplicationRecord
     following_users.include?(user)
   end
   
+  
+  
 end
