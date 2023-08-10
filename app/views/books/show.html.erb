@@ -28,11 +28,11 @@
           <% end %>
         </tr>
       </table>
-      <table>
-        <div id="post-comments">
-          <%= render "book_comments/show" , { book: @book, book_comment: @book_comment } %><br>
-        </div>
-      </table>
+      
+      <div id="post-comments">
+        <%= render "book_comments/show" , { book: @book, book_comment: @book_comment } %><br>
+      </div>
+      
       <div id="comment-form">
         <%= render "book_comments/form" , { book: @book , book_comment: @book_comment } %>
       </div>
