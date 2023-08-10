@@ -41,6 +41,7 @@ class BooksController < ApplicationController
     @book.delete
     redirect_to books_path
   end
+  
 
   private
 
