@@ -23,5 +23,3 @@ class BookCommentsController < ApplicationController
   
   
 end
-
-
